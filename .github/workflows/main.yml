@@ -48,4 +48,4 @@ jobs:
           command: up
           stack-name: nicolasgfe/stg
         env: 
-          PULIMI_ACCESS_TOCKEN: ${{ secrets.PULIMI_ACCESS_TOCKEN}}
+          PULUMI_ACCESS_TOKEN: ${{ secrets.PULUMI_ACCESS_TOKEN}}
