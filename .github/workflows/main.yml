@@ -43,7 +43,7 @@ jobs:
 
       - name: run-pulumi
         id: run-pulumi
-        uses: pulumi/actions/v6
+        uses: pulumi/actions@v6
         with:
           command: up
           stack-name: nicolasgfe/stg
