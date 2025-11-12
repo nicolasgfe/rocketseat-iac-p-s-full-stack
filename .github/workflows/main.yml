@@ -46,6 +46,6 @@ jobs:
         uses: pulumi/actions@v6
         with:
           command: up
-          stack-name: nicolasgfe/stg
+          stack-name: nicolasgfe-org/stg
         env: 
           PULUMI_ACCESS_TOKEN: ${{ secrets.PULUMI_ACCESS_TOKEN}}
