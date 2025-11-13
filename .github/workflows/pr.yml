@@ -46,7 +46,7 @@ jobs:
         uses: pulumi/actions@v6
         with:
           command: preview
-          stack-name: nicolasgfe-org/stg
+          stack-name: stg
           cloud-url: s3://pulumi-state-rocketseat
         env: 
           PULUMI_ACCESS_TOKEN: ${{ secrets.PULUMI_ACCESS_TOKEN}}
